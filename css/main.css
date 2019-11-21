@@ -1,0 +1,20 @@
+.grass {
+    height: 11rem;
+    background-image: url("../img/grass_bottom.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+  }
+  .head-Donbass {
+      font-family: 'Ubuntu',sans-serif;
+      font-size: 6rem;
+      font-weight: 700;
+      color: #000000;
+  }
+  #header {
+      background-image: url("../img/555.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 15rem;
+  }
