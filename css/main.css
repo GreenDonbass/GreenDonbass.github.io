@@ -22,3 +22,7 @@
   background-size: cover;
   padding-bottom: 15rem;
 }
+
+.text-primary {
+  color: #48626f !important;
+}
