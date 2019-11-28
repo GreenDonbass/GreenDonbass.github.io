@@ -58,9 +58,13 @@
 }
 
 .card-img i {
-  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  background-image: linear-gradient(to right, #00e095 0%, #4accc1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #00e0d0;
+}
+
+#results {
+  /* background-image: url("/img/pattern_leaves.png"); */
 }
