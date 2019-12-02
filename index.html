@@ -81,7 +81,6 @@
         <div class="col-6 header-item text-white"><h4>Экология нуждается в нашей поддержке!</h4></div>
       </div>
     </section>
-    <!-- <div class="fog">Туман войны</div> -->
     <!-- Эбаут -->
     <section id="about" class="my-4">
       <div class="container" class="text-center">
@@ -214,25 +213,21 @@
       <div class="container">
         <div class="row">
           <div class="col-5 calculate">
-            <label for="tirazh">Тираж</label>
-            <input type="number" name="tirazh" id="tir" min="30" step="30" value="30" />
-            <p class="subItogo">Листов: <span id="itogoPages">1</span> шт.</p>
+            <label for="domain">Домен</label>
+            <select name="domain" id="dom"></select>
             <br />
+            <label for="hosting">Хостинг</label>
+            <select name="hosting" id="host"></select>
             <br />
-            <label for="paper">Бумага</label>
-            <select name="paper" id="pap">
-              <!-- <option value="1">Выберите бумагу</option> -->
-            </select>
-            <br />
-            <label for="color">Цветность</label>
-            <select name="color" id="col"></select>
+            <label for="admin">Администрирование</label>
+            <select name="admin" id="adm"></select>
             <p id="itogo_p">Итого: <span id="itogo">0</span> руб., из них:</p>
             <br />
-            <p class="subItogo">Бумага: <span id="itogoTypePaper">0</span> руб./лист</p>
+            <p class="subItogo">Домен: <span id="itogoDom">0</span> руб./мес.</p>
             <br />
-            <p class="subItogo">Вывод из файла: <span id="itogoForma">0</span> руб.</p>
+            <p class="subItogo">Хостинг: <span id="itogoHost">0</span> руб./мес.</p>
             <br />
-            <p class="subItogo">Оттиск: <span id="itogoPrintForPage">0</span> руб./лист</p>
+            <p class="subItogo">Администрирование: <span id="itogoAdmin">0</span> руб./мес.</p>
             <br />
           </div>
           <div class="col-7 text-center">
