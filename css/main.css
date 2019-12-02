@@ -43,12 +43,14 @@
   margin: 0 !important;
 }
 .task-next {
-  background-color: #d6e6f0;
+  background-color: #d7f0d6;
+  /* background-color: #d6e6f0; */
 }
 
 .card-custom {
   border: 1px solid #afafaf;
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  background-color: #fff;
 }
 
 .card-custom:hover {
@@ -66,5 +68,8 @@
 }
 
 #results {
-  /* background-image: url("/img/pattern_leaves.png"); */
+  background-image: url("/img/eco-bg-2.jpg");
+  background-repeat: repeat;
+  /* background-position: center; */
+  background-size: contain;
 }
