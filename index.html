@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <title>Проект сайта "Зелёный Донбасс"</title>
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
   </head>
@@ -208,6 +209,38 @@
         </div>
       </div>
     </section>
+    <!-- Скрипт калькулятор -->
+    <section id="calc" class="bg-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 calculate">
+            <label for="tirazh">Тираж</label>
+            <input type="number" name="tirazh" id="tir" min="30" step="30" value="30" />
+            <p class="subItogo">Листов: <span id="itogoPages">1</span> шт.</p>
+            <br />
+            <br />
+            <label for="paper">Бумага</label>
+            <select name="paper" id="pap">
+              <!-- <option value="1">Выберите бумагу</option> -->
+            </select>
+            <br />
+            <label for="color">Цветность</label>
+            <select name="color" id="col"></select>
+            <p id="itogo_p">Итого: <span id="itogo">0</span> руб., из них:</p>
+            <br />
+            <p class="subItogo">Бумага: <span id="itogoTypePaper">0</span> руб./лист</p>
+            <br />
+            <p class="subItogo">Вывод из файла: <span id="itogoForma">0</span> руб.</p>
+            <br />
+            <p class="subItogo">Оттиск: <span id="itogoPrintForPage">0</span> руб./лист</p>
+            <br />
+          </div>
+          <div class="col-7 text-center">
+            <img src="img/demo-image-01.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Потенциальные партнёры -->
     <section id="partners">
       <div class="container my-4 text-center">
@@ -376,5 +409,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/calc.js"></script>
   </body>
 </html>

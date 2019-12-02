@@ -73,3 +73,30 @@
   /* background-position: center; */
   background-size: contain;
 }
+
+/* Калькулятор */
+
+.calculate {
+  border: 7px solid #aeaeae;
+  padding: 20px;
+  min-height: 410px;
+}
+
+#itogo_p {
+  font-size: 2rem;
+}
+p span {
+  color: red;
+}
+.subItogo {
+  color: #aeaeae;
+}
+
+.subItogo span {
+  color: #d15a5a;
+}
+/* 
+p {
+  padding: 0;
+
+} */
