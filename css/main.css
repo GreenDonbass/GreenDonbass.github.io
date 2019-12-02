@@ -2,13 +2,15 @@
   box-sizing: border-box;
 }
 
-.grass {
-  height: 11rem;
-  background-image: url("../img/grass_bottom.png");
-  background-repeat: repeat-x;
-  background-position: center;
-  background-size: contain;
+html {
+  scroll-behavior: smooth;
 }
+
+.navbar {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .head-Donbass {
   font-family: "Ubuntu", sans-serif;
   font-size: 6rem;
@@ -95,8 +97,11 @@ p span {
 .subItogo span {
   color: #d15a5a;
 }
-/* 
-p {
-  padding: 0;
 
-} */
+.grass {
+  height: 11rem;
+  background-image: url("../img/grass_bottom.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+}

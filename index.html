@@ -27,8 +27,10 @@
     <header class="bg-light">
       <section id="nav-bar">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Зеленый Донбасс</a>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+              <img src="/img/icon.png" height="30" class="d-inline-block align-top mr-2" alt="" />Зеленый Донбасс</a
+            >
             <button
               class="navbar-toggler navbar-toggler-right"
               type="button"
@@ -87,16 +89,15 @@
           <div class="col-12 mt-4"><h1>О проекте</h1></div>
         </div>
         <div class="row">
-          <div class="col-6"><img src="img/task1.jpg" alt="" class="w-50" /></div>
-          <div class="col-6 ml-4 text-left">
-            <p>
+          <!-- <div class="col-6"><img src="img/task1.jpg" alt="" class="w-50" /></div> -->
+          <div class="col-6 ml-4 text-center">
+            <h5>
               Целью данного проекта является достижение большей осведомлённости о проблемах экологии и путях их решения
               среди жителей Донбасса.
-            </p>
+            </h5>
           </div>
         </div>
       </div>
-      <!-- <div class="grass"></div> -->
     </section>
     <!-- Задачи -->
     <section id="tasks" class="py-4 bg-light">
@@ -220,7 +221,7 @@
             <br />
             <label for="admin">Администрирование</label>
             <select name="admin" id="adm"></select>
-            <p id="itogo_p">Итого: <span id="itogo">0</span> руб., из них:</p>
+            <p id="itogo_p">Итого: <span id="itogo">0</span> руб./мес., из них:</p>
             <br />
             <p class="subItogo">Домен: <span id="itogoDom">0</span> руб./мес.</p>
             <br />
@@ -336,15 +337,17 @@
     </section>
     <!-- Обратная связь -->
     <section id="connect" class="my-4">
-      <div class="row text-center">
-        <div class="col">
-          <h1>Обратная связь</h1>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Обратная связь</h2>
+          </div>
         </div>
+        <div id="form_122389_1"></div>
       </div>
-      <div id="form_122389_1"></div>
     </section>
-    <!-- Контактная информация1 -->
-    <section class="bg-black" id="">
+    <!-- Контактная информация -->
+    <section class="bg-black" id="connect">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-3 mb-md-0">
