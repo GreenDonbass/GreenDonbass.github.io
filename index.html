@@ -20,7 +20,6 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <title>Проект сайта "Зелёный Донбасс"</title>
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
   </head>
@@ -166,7 +165,7 @@
       <div class="container mb-5">
         <div class="row my-5">
           <div class="col-lg-8 mx-auto">
-            <h2 class="mb-4 text-white">Ожидаемые результаты</h2>
+            <h2 class="mb-4">Ожидаемые результаты</h2>
           </div>
         </div>
         <div class="row d-flex justify-content-around">
@@ -205,38 +204,6 @@
                 прогресса профессионального общества.
               </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Скрипт калькулятор -->
-    <section id="calc" class="bg-light py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-5 calculate">
-            <label for="tirazh">Тираж</label>
-            <input type="number" name="tirazh" id="tir" min="30" step="30" value="30" />
-            <p class="subItogo">Листов: <span id="itogoPages">1</span> шт.</p>
-            <br />
-            <br />
-            <label for="paper">Бумага</label>
-            <select name="paper" id="pap">
-              <!-- <option value="1">Выберите бумагу</option> -->
-            </select>
-            <br />
-            <label for="color">Цветность</label>
-            <select name="color" id="col"></select>
-            <p id="itogo_p">Итого: <span id="itogo">0</span> руб., из них:</p>
-            <br />
-            <p class="subItogo">Бумага: <span id="itogoTypePaper">0</span> руб./лист</p>
-            <br />
-            <p class="subItogo">Вывод из файла: <span id="itogoForma">0</span> руб.</p>
-            <br />
-            <p class="subItogo">Оттиск: <span id="itogoPrintForPage">0</span> руб./лист</p>
-            <br />
-          </div>
-          <div class="col-7 text-center">
-            <img src="img/demo-image-01.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -341,8 +308,26 @@
       </div>
     </section>
     <!-- Обратная связь -->
-    <section id="connect"></section>
-    <!-- Контактная информация -->
+    <section id="connect" class="my-4">
+      <div class="row text-center">
+        <div class="col">
+            <h1>Обратная связь</h1>
+        </div>
+      </div>
+
+      <div id="form_122389_1"></div>
+<script type="text/javascript">
+   (function (d, w, c) {
+       (w[c] = w[c] || []).push({formId:122389,host:"formdesigner.ru",formHeight:100, el: "form_122389_1", center: 1});
+       var s = d.createElement("script"), g = "getElementsByTagName";
+       s.type = "text/javascript"; s.charset="UTF-8"; s.async = true;
+       s.src = (d.location.protocol == "https:" ? "https:" : "http:")+"//formdesigner.ru/js/iform.js";
+       var h=d[g]("head")[0] || d[g]("body")[0];
+       h.appendChild(s);
+   })(document, window, "fdforms");
+</script>
+    </section>
+    <!-- Контактная информация1 -->
     <section class="bg-black" id="">
       <div class="container">
         <div class="row">
@@ -409,6 +394,5 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="js/calc.js"></script>
   </body>
 </html>
