@@ -45,8 +45,22 @@ html {
   margin: 0 !important;
 }
 .task-next {
-  background-color: #d7f0d6;
+  /* background-color: #d7f0d6; */
   /* background-color: #d6e6f0; */
+  background-color: #d6f0e7;
+
+}
+
+h4, h2 {
+  text-shadow: 2px 3px 6px rgba(0,0,0,0.35);
+}
+
+h2.text-white {
+  text-shadow: 6px 3px 5px rgba(0,0,0,0.35);
+}
+
+h1.head-Donbass {
+  text-shadow: 1px 4px 10px rgba(0,0,0,0.5);
 }
 
 .card-custom {
@@ -70,10 +84,10 @@ html {
 }
 
 #results {
-  background-image: url("/img/eco-bg-2.jpg");
-  background-repeat: repeat;
-  /* background-position: center; */
-  background-size: contain;
+  background-image: url("../img/header-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Калькулятор */
@@ -86,18 +100,22 @@ html {
 
 #itogo_p {
   font-size: 2rem;
+  margin: 20px;
 }
 p span {
-  color: red;
+  color: #03c987;
 }
 .subItogo {
   color: #aeaeae;
 }
 
 .subItogo span {
-  color: #d15a5a;
+  color: #009765;
 }
 
+.calculate p {
+  margin-bottom: 3px;
+}
 .grass {
   height: 11rem;
   background-image: url("../img/grass_bottom.png");

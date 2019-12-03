@@ -165,7 +165,7 @@
       <div class="container mb-5">
         <div class="row my-5">
           <div class="col-lg-8 mx-auto">
-            <h2 class="mb-4">Ожидаемые результаты</h2>
+            <h2 class="mb-4 text-white">Ожидаемые результаты</h2>
           </div>
         </div>
         <div class="row d-flex justify-content-around">
@@ -209,18 +209,28 @@
       </div>
     </section>
     <!-- Скрипт калькулятор -->
-    <section id="calc" class="bg-light py-4">
+    <section id="calc" class="bg-light py-4 text-center">
       <div class="container">
+        
+        <div class="row my-5">
+          <div class="col-12"><h2 class="mb-4">Расчёт затрат на содержание проекта</h2></div>
+        </div>
         <div class="row">
           <div class="col-5 calculate">
-            <label for="domain">Домен</label>
-            <select name="domain" id="dom"></select>
-            <br />
-            <label for="hosting">Хостинг</label>
-            <select name="hosting" id="host"></select>
-            <br />
-            <label for="admin">Администрирование</label>
-            <select name="admin" id="adm"></select>
+            <table class="text-left">
+              <tr>
+                <td><label for="domain">Домен</label></td>
+                <td><select name="domain" id="dom" class="ml-4 w-100"></select></td>
+              </tr>
+              <tr>
+                <td><label for="hosting">Хостинг</label></td>
+                <td><select name="hosting" id="host" class="ml-4 w-100"></select></td>
+              </tr>
+              <tr>
+                  <td><label for="admin">Администрирование</label></td>
+                  <td><select name="admin" id="adm" class="ml-4 w-100"></select></td>
+                </tr>
+            </table>
             <p id="itogo_p">Итого: <span id="itogo">0</span> руб./мес., из них:</p>
             <br />
             <p class="subItogo">Домен: <span id="itogoDom">0</span> руб./мес.</p>
@@ -231,7 +241,7 @@
             <br />
           </div>
           <div class="col-7 text-center">
-            <img src="img/demo-image-01.jpg" alt="" />
+            <img src="img/demo-image-01.jpg" class="w-75" alt="" />
           </div>
         </div>
       </div>
