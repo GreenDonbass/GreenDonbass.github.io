@@ -9,14 +9,65 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar {
-  padding-left: 70px;
-  padding-right: 70px;
+/* Малые девайсы («ландшафтные телефоны», >= 576px) */
+@media (min-width: 576px) {
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h1.head-Donbass {
+    font-size: 5rem;
+  }
+  .obolochka .img-fluid {
+    width: 75%;
+  }
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h1.head-Donbass {
+    font-size: 6rem;
+  }
+  .obolochka .img-fluid {
+    width: 75%;
+  }
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) {
+  .navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  h1.head-Donbass {
+    font-size: 6rem;
+  }
+  .obolochka .img-fluid {
+    width: 50%;
+  }
+}
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+  .navbar {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  h1.head-Donbass {
+    font-size: 7rem;
+  }
+  .obolochka .img-fluid {
+    width: 50%;
+  }
 }
 
 .head-Donbass {
   font-family: "Ubuntu", sans-serif;
-  font-size: 7rem;
+  /* font-size: 7rem; */
   font-weight: 700;
   color: #fff;
 }
@@ -169,7 +220,7 @@ p span {
   height: 11rem;
   background-image: url("../img/grass_bottom-2.png");
   background-repeat: repeat-x;
-  background-position: center;
+  background-position: bottom;
   background-size: contain;
 }
 
