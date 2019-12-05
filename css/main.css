@@ -97,6 +97,10 @@ html {
   background-color: #d6f0e7;
 }
 
+#about {
+  text-align: justify;
+}
+
 h4,
 h2 {
   text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
