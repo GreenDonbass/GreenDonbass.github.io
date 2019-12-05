@@ -3,6 +3,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 html {
@@ -65,6 +66,9 @@ html {
   }
 }
 
+.nav-item .active {
+  border-bottom: 2px solid rgb(75, 75, 75);
+}
 .head-Donbass {
   font-family: "Ubuntu", sans-serif;
   /* font-size: 7rem; */

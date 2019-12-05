@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#nav-bar">
     <header class="bg-light">
       <section id="nav-bar">
         <div class="container">
@@ -46,6 +46,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#header"><i class="fas fa-home"></i></a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about">О проекте</a>
                 </li>
@@ -241,7 +244,7 @@
       </div>
     </section>
     <!-- Потенциальные партнёры -->
-    <section id="partners bg-light">
+    <section id="partners" class="">
       <div class="container my-4 text-center">
         <div class="my-4 row">
           <div class="col-lg-8 mx-auto">
@@ -291,7 +294,7 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-7 calculate">
+          <div class="col-md-7 calculate">
             <table class="text-left d-flex justify-content-center mt-3">
               <tr>
                 <td><label for="domain">Домен</label></td>
@@ -341,7 +344,7 @@
             </div>
             <div class="card-text text-black-50">
               <p>
-                Тимлидерка, программистка, дизайнерка
+                Тимлидер, программист, дизайнер
               </p>
             </div>
           </div>
@@ -371,7 +374,7 @@
       </div>
     </section>
     <!-- Обратная связь -->
-    <section id="connect" class="mb-4 py-4">
+    <section id="connect" class="mb-5 py-5">
       <div class="container">
         <div class="row text-center">
           <div class="col py-3">
